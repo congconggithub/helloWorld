@@ -1,0 +1,71 @@
+.m-main {
+	font-family: Times New Roman ,Regular;
+	line-height: 24px;
+	min-height: 1095px; 
+	box-sizing: border-box;	
+}
+.intro span:before {
+	content: "-";
+	color: black;
+}
+.blog .title {
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #5a4535;
+}
+.m-main .enjoy {
+	margin: 30px 0;
+}
+.m-main .enjoy .intro a {
+    color: #5a4535;
+}
+.m-main .enjoy .intro a:active,
+.m-main .enjoy .intro a:hover {
+    text-decoration: underline;
+    color: #5a4535;
+}
+.border {
+	border-top: 1px solid #5a4535;
+	border-bottom: 1px solid #5a4535;
+}
+.m-block {
+	float: left;
+	height: 460px;
+}
+.block {
+	box-sizing:border-box;
+	width: 560px;
+	padding: 20px 15px; 
+	background-color: white;
+	margin: 20px 0;
+	box-shadow:2px 2px #e1dbcf;
+	border-radius:2px;
+}
+.m-block .title {
+	font-size: 22px;
+}
+.m-block .intro {
+	font-size: 15px;
+}
+.blog {
+	height: 302px;
+}
+.blog p {
+	font-size: 22px;
+}
+.blog .time {
+	font-size: 14px;
+}
+.tes .intro,.tes .title {
+	margin: 0;
+}
+.tes span {
+	color: #316e66;
+	float: right;
+}
+.pic {
+	float: right;
+	margin-top: 20px;
+	width: 280px;
+	height: 140px;
+}

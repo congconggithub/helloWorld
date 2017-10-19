@@ -1,0 +1,27 @@
+.templates {
+	margin-bottom: 40px; 
+	border-bottom: 1px solid #5a4535;
+}
+table .m-part {
+	border-right: 1px solid #5a4535;
+}
+.m-part {
+	box-sizing: border-box;
+	float: left;
+	width: 515px;
+	margin-right: 30px;
+	padding-right: 15px;
+	border-right: 1px solid #5a4535;
+}
+.m-part hr {
+	width: 1px;
+	size: 300;
+	height: 380px;
+	color: #5a4535;
+	vertical-align: right;
+}
+.m-our {
+	flex: 1;
+}
+
+

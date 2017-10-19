@@ -1,0 +1,19 @@
+.pic img {
+	width: 260px;
+	height: 170px;	
+}
+.pic li {
+	float: left;
+}
+.pic {
+	clear: both;
+}
+.food {
+	display: inline-block;
+	padding: 40px 0;
+	clear: both;
+	border-bottom: 1px solid #5a4535;
+}
+.food:last-child {
+	border-bottom: none;
+}

@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+h2, .title {
+	color: #2c9688;
+	font-size: 26px;
+	margin-bottom: 25px;
+}
+
+h1, .m-title {
+	color: #316e66;
+	font-size: 38px;
+	margin-bottom: 25px; 
+}
+li {
+	list-style-type: none;
+}
+h1,h2 {
+	font-weight: 400;
+}
+body {
+	background-image: url(./images/bgimg.png);
+	background-color: #e6c28e;
+	background-repeat: repeat-x;
+}
+a,a:hover {
+	color: #5a4535;
+	text-decoration: none;
+}
+.content {
+	width: 860px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.logo{
+	background-image: url(./images/logo/logo.png);
+	background-repeat: no-repeat;
+	margin: 20px 0;
+}
+.logo a {
+	display: inline-block;
+	width: 120px;
+	height: 110px;
+}
+.nav {
+	background-image: url(./images/logo/shape.png);
+	background-repeat: repeat-x;
+	color: white;
+	width: 860px;
+	height: 50px;
+}
+
+.nav ul {
+	width: 860px;
+}
+.nav li:after {
+	content: "";
+	width: 1px;
+	background-image: url(./images/logo/shape22.png);
+	background-repeat: no-repeat;
+}
+.nav li {
+	float: left;
+	line-height: 20px;
+}
+.nav li:last-child a::after {
+	display: none;
+}
+.nav a {
+	position: relative; /* 作为.nav a::after绝对定位的参照物 */;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 15px 32px;
+	height: 50px;
+}
+.nav a::after {
+	top: 0;
+	position: absolute;
+	content: "";
+	width: 1px;
+	background-image: url(./images/logo/shape22.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 100%;
+	right: 0;
+}
+.nav .active a,.nav a:hover {
+	text-decoration: none;
+	color: #e4e1bd;
+	background-image: url(./images/logo/shape-1.png);
+}
+.main {
+	font-family: Times New Roman ,Regular;
+	line-height: 24px;
+	min-height: 1095px; 
+	margin: 25px 0;
+	width: 100%;
+	padding: 35px;
+	background-color: #FFFFFF;
+	box-sizing: border-box;	
+}
+.intro {
+	font-size: 16px;
+	color: #5a4535;
+	margin-bottom: 25px;
+}
+.footer {
+	background-color: #ac9e94;
+	height: 50px;
+	clear: both; 
+	align-items: center;
+}
+.m-list {
+	display: flex;
+	align-items: center;
+	float: left;
+	font-size: 14px;
+	margin: 15px;
+}
+.m-list li a {
+	text-decoration: none;
+	color: #594334;
+	float: left;
+}
+.m-list .active a,.m-list li a:hover {
+	color: #ffffff;
+}
+.m-list li {
+	margin-right:12px;
+}
+.copyright {
+	text-align: center; 
+	margin: 13px auto;
+	color: #594334;
+}
+.m-follow {
+	float: right;
+	margin: 15px;
+	align-items: center;
+}
+.m-follow a {
+	display: inline-block;
+	width: 23px;
+    height: 23px;
+}
+.follow {
+    margin-right: 20px;
+    display: inline-block;
+}    
+.pin {
+	background-image: url(./images/logo/icon.png);
+    background-position: -4px -26px;
+}
+.fb {
+	background-image: url(./images/logo/icon.png);
+    background-position: -40px -26px;
+}
+.tw{
+	background-image: url(./images/logo/icon.png);
+    background-position: -72px -26px;
+}
+.google{
+	background-image: url(./images/logo/icon.png);
+    background-position: -109px -26px;
+}

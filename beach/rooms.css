@@ -1,0 +1,43 @@
+.main {
+	font-family: Times New Roman ,Regular;
+	line-height: 24px;
+	height: 1095px; 
+	margin-top: 25px;
+	padding: 40px;
+	background-color: #FFFFFF;
+	box-sizing: border-box;
+}
+.rooms {
+	display: flex;
+	margin: 25px 0;
+	border-bottom: 1px solid #5a4535;
+	padding-bottom: 25px;
+}
+.rooms:last-child {
+	border-bottom: none;
+}
+.pic img{
+	width: 400px;
+	height: 290px;
+	float: left;
+}
+.intro_r {
+	position: relative;
+	font-size: 16px;
+	color: #5a4535;
+	float: right;
+	flex: 1;
+	margin-left: 15px;
+	margin-bottom: 0;
+	font-size: 16px;
+	color: #5a4535;
+}
+.rate {
+	position: absolute;
+	bottom: 0;
+	border:1px solid #5a4535;
+	color: #316e66;
+	padding: 12px 18px;
+	display: table;
+}
+
